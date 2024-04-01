@@ -20,12 +20,6 @@ pipeline {
             }
         }
         
-        stage('Test') {
-            steps {
-                // Add test commands here if applicable
-            }
-        }
-        
         stage('Containerized') {
             steps {
                 script {
